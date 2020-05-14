@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.backleft1{
+    height:78.9%;
+    width:32.5%;
+    position: absolute;  
+    left:0px;
+    top:0px;
+    background-color: #111010de;
+    float:left;
+}
+.bottom{
+    height:21.1%;
+    width:100%;
+    position: absolute;;
+    bottom:0px;
+    left:0px;
+    background-color: #111010de;
+}
+.content{
+    margin-top: 20px;
+    width:800px;
+    height:55vh;
+    position:absolute;
+    left:900px;
+    top:130px;
+    color:rgb(42, 40, 40);
+    border-radius: 130px 40px 40px 40px;
+    background-color:#00ffff;
+    padding:0px 0px 0px 0px;
+}
+#hi{
+    
+    color:#1a7979;
+}
+.intro1{
+    width:75%;
+    height:13vh;
+    position:absolute;
+    top:150px;
+    right:120px;
+    background-color:#16e4e4 ;
+    box-shadow:0px 4px 5px 5px;
+    border-radius: 10px 10px 10px 10px;
+    color:black;
+    padding-top: 15px;
+    font-weight: bold;
+    font-size:15px;
+    font-family: monospace;
+    line-height: 160%;
+    padding-left: 10px;
+}
+.img{
+    position:absolute;
+    text-align: center;
+    top:150px;
+    left:465px;    
+}
+.img img{
+    border-radius: 20px 10px 10px 20px;
+    box-shadow: 0px 10px 15px 3px;
+}
+.img p{
+    color:rgb(44, 163, 179);
+}
+#exp{
+    position:absolute;
+    text-align: center;
+    width:20%;
+    height:30px;
+    right:330px;
+    bottom:100px; 
+    box-shadow:0px 5px 10px 1px;
+    border-radius: 5px 5px 5px 5px;
+    border:2px solid rgba(27, 26, 26, 0.966);
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color:#16e4e4  ;
+}
+#exp p{
+    margin-top: 6px;
+    font-weight: bolder;
+}
+.insta{
+    position: absolute;
+    right:850px;
+    bottom:170px;
+}
+.insta img{
+    width:17%;
+    height:6vh;
+    border-radius: 30px;
+    transition: .3s; 
+}
+.twitter{
+    position: absolute;
+    right:650px;
+    bottom:170px;
+}
+.twitter img{
+    transition: .3s;
+    width:17%;
+    height:6vh;
+    border-radius: 30px;
+}
+.gmail{
+    position: absolute;
+    right:450px;
+    bottom:170px;
+}
+.gmail img{
+    transition: .3s;
+    width:17%;
+    height:6vh;
+    border-radius: 30px;
+}
+.call{
+    transition: .3s;
+    position: absolute;
+    right:50px;
+    bottom:170px;
+}
+.call img{
+    width:17%;
+    height:6vh;
+    border-radius: 50%;
+}
+.linkedin{
+    position: absolute;
+    right:250px;
+    bottom:170px;
+}
+.linkedin h4{
+    text-align: left;
+}
+.linkedin img{
+    transition: .3s;
+    width:17%;
+    height:6vh;
+    border-radius: 50%;
+}
+.menu{
+    width:30%;
+    height:10vh;
+    position: absolute;
+    top:40px;
+    right:110px;
+}
+.menu a{
+    margin-left: 30px;
+}
+#logo img{
+    position:absolute;
+    left:70px;
+    top:30px;
+    width:20%;
+    height:10vh;
+    border-radius:0px 50px 50px 0px;
+}
+#contacting {
+    position: relative;
+    left:170px;
+    width:70%;
+    height:6vh;
+    bottom:20px;
+}
+#menubg{
+    width:67.5%;
+    height:80px;
+    position:absolute;
+    top:0px;
+    right:0px;
+    background-color: rgb(255, 255, 255);
+}
+.backleft1 h3{
+    position: absolute;
+    top:420px;
+    left:170px;
+}
+meter{
+    width:200px;
+}
+meter::-webkit-meter-optimum-value {
+    box-shadow: 0 5px 5px -5px #999 inset;
+    background-image: linear-gradient(
+      90deg, 
+      #2AC5B3 100%, 
+      #e6d450 5%,
+      #e6d450 15%,
+      #f28f68 15%,
+      #f28f68 55%,
+      #cf82bf 55%,
+      #cf82bf 95%,
+      #719fd1 95%,
+      #719fd1 100%
+    );
+    background-size: 100% 100%;
+    padding-top: 10px;
+}
+.skills{
+      position: absolute;
+      bottom:10px;
+      left:100px;
+}
+.skills :not(meter){
+    padding:0px 0px 15px 0px;
+}
+
+#hhh{
+      text-decoration: none;
+  }
+.insta :not(img){
+    position: absolute;
+    z-index: 1;
+    color:#2AC5B3;
+    text-align: center;
+    width:40%;
+    opacity:0;
+    transition: .3s;
+}
+.insta:hover img{
+    filter:blur(1px) brightness(60%);
+}
+.insta:hover :not(img){
+    opacity:1;
+}
+.twitter :not(img){
+    position: absolute;
+    z-index: 1;
+    color:#2AC5B3;
+    text-align: center;
+    width:40%;
+    opacity:0;
+    transition: .3s;
+}
+.twitter:hover img{
+    filter:blur(1px) brightness(60%);
+}
+.twitter:hover :not(img){
+    opacity:1;
+}
+.gmail :not(img){
+    position: absolute;
+    z-index: 1;
+    color:#2AC5B3;
+    left:20px;
+    width:10%;
+    opacity:0;
+    transition: .3s;
+    text-align: left;
+}
+.gmail:hover img{
+    filter:blur(1px) brightness(60%);
+}
+.gmail:hover :not(img){
+    opacity:1;
+}
+.linkedin :not(img){
+    position: absolute;
+    z-index: 1;
+    color:#2AC5B3;
+    text-align: start;
+    width:40%;
+    opacity:0;
+    transition: .3s;
+}
+.linkedin:hover img{
+    filter:blur(1px) brightness(60%);
+}
+.linkedin:hover :not(img){
+    opacity:1;
+}
+.call :not(img){
+    position: absolute;
+    z-index: 1;
+    color:#2AC5B3;
+    text-align: center;
+    width:40%;
+    opacity:0;
+    transition: .3s;
+}
+.call:hover img{
+    filter:blur(1px) brightness(60%);
+}
+.call:hover :not(img){
+    opacity:1;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .backleft1{
+        float:left;
+        width:50%;
+    }
+    .menubg{
+        display:flex;
+        width:140%;
+    }
+    .img{
+        width:30%;
+        padding-left: 20px;
+    }
+    .bottom{
+        width:200%;
+        height:10%;
+        position: absolute;;
+        bottom: -730px;
+    }
+    .content{
+        margin:0 auto;
+        position: relative;
+        width:100%;
+        padding-right: 0px;
+        padding-left:0px;
+        left:300px;
+        align-content: center;
+    }
+    .skillpicbg{
+        margin:0 auto;
+        width:400%;
+        height:100vh;
+        position:relative;
+        left: 0 px;
+        bottom:-78.8vh;
+        background-color:  #111010de;
+    }
+    .intro1{
+        margin:0 auto;
+        position:absolute;
+        align-content: center;
+        width:80%;
+        padding-left:10px;
+        padding-top: 10px;
+        font-size: 1rem;
+        left:40px;
+    }
+    .skills{
+        position: absolute;
+        float:left;
+        top: 300px;
+    }
+    .skills h3{
+        position:absolute;
+        left:0px;
+        top:-50px;
+
+    }
+    .menu a{
+        font-size: 0.7rem;
+    }
+    .menu{
+        display:flex;
+        padding-right: 20%;
+        position: absolute;
+        left:300px;
+    }
+    .img img{
+        position: absolute;
+        width:80%;
+        height:35vh;
+        margin:0 auto;
+        bottom:-300px;
+        right:0vh;
+    }
+    .body{
+        display:grid;
+    }
+    .img img p{
+        position:absolute;
+    }
+    #hi{
+        font-size: 2rem;
+    }
+    #contacting{
+        width:200%;
+        float:left;
+        position: relative;
+        bottom:-1150px;
+    }
+    .insta{
+        position: absolute;
+        right:650px;
+        bottom:170px;
+    }
+    .insta img{
+        width:17%;
+        height:6vh;
+        border-radius: 30px;
+        transition: .3s; 
+    }
+    .twitter{
+        position: absolute;
+        right:450px;
+        bottom:170px;
+    }
+    .twitter img{
+        transition: .3s;
+        width:15%;
+        height:6vh;
+        border-radius: 50%;
+    }
+    .gmail{
+        position: absolute;
+        right:300px;
+        bottom:170px;
+    }
+    .gmail img{
+        transition: .3s;
+        width:15%;
+        height:6vh;
+        border-radius: 50%;
+    }
+    .call{
+        transition: .3s;
+        position: absolute;
+        right:20px;
+        bottom:170px;
+    }
+    .call img{
+        width:15%;
+        height:6vh;
+        border-radius: 50%;
+    }
+    .linkedin{
+        position: absolute;
+        right:150px;
+        bottom:170px;
+    }
+    .linkedin h4{
+        text-align: left;
+    }
+    .linkedin img{
+        transition: .3s;
+        width:15%;
+        height:6vh;
+    }
+    #logo img{
+        position:absolute;
+        left:70px;
+        top:30px;
+        width:30%;
+        height:10vh;
+    }
+    #exp{
+        position:absolute;
+        text-align: center;
+        width:25%;
+        height:30px;
+        right:160px;
+        bottom:100px; 
+    }
+    #exp p{
+        margin-top: 6px;
+    }
+    #hhh p{
+        font-size: 0.8rem;
+    }
+}
+
+  
